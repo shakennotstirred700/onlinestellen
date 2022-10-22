@@ -1,9 +1,11 @@
 // THIS FILE IS GENERATED AUTOMATICALLY. DO NOT MODIFY.
 
+import OnlinestellenDex from './onlinestellen.dex'
 import OnlinestellenOnlinestellen from './onlinestellen.onlinestellen'
 
 
 export default { 
+  OnlinestellenDex: load(OnlinestellenDex, 'onlinestellen.dex'),
   OnlinestellenOnlinestellen: load(OnlinestellenOnlinestellen, 'onlinestellen.onlinestellen'),
   
 }
